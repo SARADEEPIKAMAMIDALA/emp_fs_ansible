@@ -41,4 +41,4 @@ jobs:
           context: ./finalemp-front
           file: ./finalemp-front/frontend.Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/ansible-frontend:v1
+          tags: ${{ secrets.DOCKER_USERNAME }}/ansible-frontend:v2
